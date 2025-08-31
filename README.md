@@ -14,21 +14,22 @@ Lightweight HTML → JSON converter for Python, forked from `html-to-json` but w
 
 ## 📦 Install
 For now, install from GitHub:
-```bash
-pip install git+https://github.com/SimBeSim/h2j.git
 
+```
+pip install git+https://github.com/SimBeSim/h2j.git
+```
 (PyPI release coming soon!)
 
-🚀 Usage
-
+## 🚀 Usage
+```
 import h2j
 
 html = '<div class="a b c" id="x">Hello <b>World</b></div>'
 out = h2j.convert(html, capture_element_attributes=True)
 print(out)
-
-Output:
-
+```
+## Output:
+```
 {
   'div': [
     {
@@ -39,13 +40,15 @@ Output:
   ]
 }
 
-🧪 Tests
+```
+
+## 🧪 Tests
 
 Run locally with:
-
+```
 pytest
-
-📜 License
+```
+## 📜 License
 
 MIT License © 2025 Maxim Sergeyevich Shubin and Chatty Shubin
 
