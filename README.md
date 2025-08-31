@@ -1,6 +1,7 @@
 # h2j
 
 [![Tests](https://github.com/SimBeSim/h2j/actions/workflows/tests.yml/badge.svg)](https://github.com/SimBeSim/h2j/actions)
+[![PyPI version](https://img.shields.io/pypi/v/h2j.svg?color=blue)](https://pypi.org/project/h2j/)
 
 Lightweight HTML → JSON converter for Python, forked from `html-to-json` but with a cleaner and more compact style.
 
@@ -13,12 +14,15 @@ Lightweight HTML → JSON converter for Python, forked from `html-to-json` but w
 - 100% passing tests ✅
 
 ## 📦 Install
-For now, install from GitHub:
-
+From PyPI (after publish):
+```bash
+pip install h2j
+```
+Or from GitHub:
 ```
 pip install git+https://github.com/SimBeSim/h2j.git
 ```
-(PyPI release coming soon!)
+
 
 ## 🚀 Usage
 ```
@@ -39,7 +43,6 @@ print(out)
     }
   ]
 }
-
 ```
 
 ## 🧪 Tests
@@ -51,6 +54,4 @@ pytest
 ## 📜 License
 
 MIT License © 2025 Maxim Sergeyevich Shubin and Chatty Shubin
-
-
 
